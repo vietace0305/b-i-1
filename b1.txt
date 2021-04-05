@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở thích của bạn</title>
+    <style>
+        h1 {
+            color: white;
+        }
+
+        h1 {
+            background-color: red
+        }
+
+        h1 {
+            text-align: center
+        }
+
+body{padding: 200px}
+    </style>
+</head>
+<body>
+
+
+<form>
+
+
+    <h1>Sở thích của bạn</h1>
+    <table>
+    <tr>
+
+        <td>Họ và tên </td> <td><input type="text"> </td>
+    </tr>
+    <tr>
+        <td>Email </td> <td> <input type="email"> </td>
+    </tr>
+        <tr>
+
+            <td>Sở thích </td> <td> <input type="checkbox"> Thể thao </td>
+            <td><input type="checkbox"> Âm nhạc </td>
+            <td><input type="checkbox"> Đọc sách  </td>
+        </tr>
+        <tr>
+    <td> </td> <td><input type="checkbox"> Lướt web </td>
+    <td><input type="checkbox"> Chơi game </td>
+            <td><input type="checkbox"> Điện ảnh </td>
+        </tr>
+        <tr>
+             <td></td>
+            <td><input type="checkbox"> Du lịch </td>
+        </tr>
+        <tr>
+
+            <td></td> <td><input type="submit" value="Gửi thông tin"/> </td>
+            <td><input type="submit" value="Nhập lại"/> </td>
+        </tr>
+
+    </table>
+
+
+
+</form>
+
+</body>
+
+</html>
